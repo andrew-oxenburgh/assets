@@ -9,11 +9,6 @@
     "svgexport": "^0.4.2"
   },
    "scripts":{
-      "svg:favicon": "svgexport ./public/site-logo.svg ./public/favicon.ico png 100% 16:16",
-      "svg:png192": "svgexport ./public/site-logo.svg ./public/logo192.png png 100% 192:192",
-      "svg:png256": "svgexport ./public/site-logo.svg ./public/logo512.png png 100% 512:512",
-      "svg:png512": "svgexport ./public/site-logo.svg ./public/logo512.png png 100% 512:512",
-      "svg": "yarn svg:favicon && yarn svg:png192 && yarn svg:png512",
-      "svg:command": "./export-svg.sh"
+      "svg:export": "./export-svg.sh"
    }
 }
